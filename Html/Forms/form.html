@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+</head>
+<body>
+    <h2>User Registration</h2>
+    
+    <form>
+        <label for="first_Name">First Name:</label>
+        <input type="text" id="first_Name" name="first_Name" required><br><br>
+        
+        <label for="last_Name">Last Name:</label>
+        <input type="text" id="last_Name" name="last_Name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="contact">Contact:</label>
+        <input type="tel" id="contact" name="contact" required><br><br>
+        
+        <label for="date_Of_Birth">Date of Birth:</label>
+        <input type="date" id="date_Of_Birth" name="date_Of_Birth" required><br><br>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+        
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other" required>
+        <label for="other">Other</label><br><br>
+        
+        <label for="resume">Resume:</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required><br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
