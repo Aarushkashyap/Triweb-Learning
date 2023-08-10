@@ -9,42 +9,42 @@
   <h2>User Registration</h2>
   <form>
     <div class="form-group">
-      <label>First Name:</label>
-      <input type="text" name="first_Name" required>
+      <label for="first_Name">First Name:</label>
+      <input type="text" id="first_Name" name="first_Name"required>
     </div>
     <div class="form-group">
-      <label>Last Name:</label>
-      <input type="text" name="last_Name" required>
+      <label for="last_Name">Last Name:</label>
+      <input type="text" id="last_Name" name="last_Name" required>
     </div>
     <div class="form-group">
-      <label>Email:</label>
-      <input type="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
     </div>
     <div class="form-group">
-      <label>Contact:</label>
-      <input type="tel" name="contact" required pattern="[0-9]*">
+      <label for="contact">Contact:</label>
+      <input type="tel" id="contact" name="contact" required pattern="[0-9]*">
     </div>
     <div class="form-group">
-      <label>Date Of Birth:</label>
-      <input type="date" name="dob" required>
+      <label for="dob">Date Of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
     </div>
     <div class="form-group">
-      <label>Age:</label>
-      <input type="number" name="age" min="18" max="99" required>
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" min="18" max="99" required>
     </div>
     <div class="form-group">
-      <label>Gender:</label>
-      <input type="radio" name="gender" value="male" required> Male
-      <input type="radio" name="gender" value="female"> Female
-      <input type="radio" name="gender" value="other"> Other
+      <label for="gender">Gender:</label>
+      <input type="radio" id="gender" name="gender" value="male" required> Male
+      <input type="radio" id="gender" name="gender" value="female"> Female
+      <input type="radio" id="gender" name="gender" value="other"> Other
     </div>
     <div class="form-group">
-      <label>Resume File:</label>
-      <input type="file" name="resume" accept=".pdf,.doc,.docx" required>
+      <label for="resume">Resume File:</label>
+      <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
     </div>
     <div class="form-group">
-      <input type="submit" value="Register">
-      <input type="reset" value="Reset">
+      <input type="submit" id="submit" value="Register">
+      <input type="reset" id="reset" value="Reset">
     </div>
   </form>
 </div>
